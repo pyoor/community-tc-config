@@ -313,6 +313,7 @@ fuzzing:
           maxRunTime: 14400
           env:
             BUG_ACTION: monitor
+            DISABLE_PERNOSCO: "1"
           artifacts:
             project/fuzzing/bugmon:
               path: /bugmon-artifacts
@@ -367,6 +368,7 @@ fuzzing:
           maxRunTime: 14400
           env:
             BUG_ACTION: monitor
+            DISABLE_PERNOSCO: "1"
             FORCE_CONFIRM: "true"
           artifacts:
             project/fuzzing/bugmon:
